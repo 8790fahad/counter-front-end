@@ -1,9 +1,9 @@
 {
-  "name": "first_contract_front_end",
+  "name": "counter-front-end",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://8790fahad.github.io/first_contract_front_end",
+  "homepage": "https://8790fahad.github.io/counter-front-end/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

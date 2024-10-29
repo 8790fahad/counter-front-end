@@ -5,7 +5,7 @@ import { nodePolyfills } from 'vite-plugin-node-polyfills';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), nodePolyfills()],
-  base: '/first_contract_front_end/',
+  base: '/counter-front-end/',
   build: {
     chunkSizeWarningLimit: 2000,
   },
