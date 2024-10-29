@@ -1,21 +1,20 @@
 {
   "name": "counter-front-end",
-  "private": true,
-  "version": "0.0.0",
   "type": "module",
-  "homepage": "https://8790fahad.github.io/counter-front-end/",
+  "version": "0.0.1",
+  "private": true,
+  "homepage": "https://8790fahad.github.io/counter-front-end",
   "scripts": {
     "dev": "vite",
+    "predeploy": "yarn run build",
     "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
     "deploy": "gh-pages -d dist",
-    "predeploy": "yarn build"
+    "lint": "eslint .",
+    "preview": "vite preview"
   },
   "dependencies": {
     "@orbs-network/ton-access": "^2.3.3",
     "@tonconnect/ui-react": "^2.0.9",
-    "@twa-dev/sdk": "^7.10.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "ton": "^13.9.0",
@@ -31,7 +30,6 @@
     "eslint": "^9.13.0",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.13",
-    "gh-pages": "^6.2.0",
     "globals": "^15.11.0",
     "typescript": "~5.6.2",
     "typescript-eslint": "^8.10.0",
