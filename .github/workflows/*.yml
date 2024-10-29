@@ -17,13 +17,13 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v1
         with:
-          node-version: 16
+          node-version: 18  # Update Node.js version to 18
 
       - name: Install dependencies
-        run: yarn install  # Use yarn instead of npm
+        run: yarn install  # Use yarn for installing dependencies
 
       - name: Build project
-        run: yarn build  # Use yarn to build the project
+        run: yarn build  # Use yarn for building the project
 
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v3
