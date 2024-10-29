@@ -49,5 +49,11 @@ export function useMainContract() {
     sendIncrement: () => {
       return mainContract?.sendIncrement(sender, toNano(0.05), 3);
     },
+    sendDeposit:()=>{
+      return mainContract?.sendDeposit(sender,toNano(1))
+    },
+    sendWithdrawalRequest:()=>{
+      return mainContract?.sendWithdrawalRequest(sender,toNano(1),toNano(0.7))
+    }
   };
 }
