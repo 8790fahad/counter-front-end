@@ -3,7 +3,6 @@
   "type": "module",
   "version": "0.0.1",
   "private": true,
-  "homepage": "https://8790fahad.github.io/counter-front-end",
   "scripts": {
     "dev": "vite",
     "predeploy": "yarn run build",
